@@ -1826,3 +1826,6 @@
 #if defined(LCD_TELEMETRY_STEP) && !(defined(LCD_TELEMETRY))
         #error "to use single step telemetry, you MUST also define and configure LCD_TELEMETRY"
 #endif
+
+// The following is from: http://www.multiwii.com/forum/viewtopic.php?f=18&t=3665#p37808
+#define __PROG_TYPES_COMPAT__
